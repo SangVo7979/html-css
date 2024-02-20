@@ -1,0 +1,476 @@
+@media (max-width : 1293px) {
+    #services .sub_cate p {
+        font-size: 15px;
+    }
+
+    #services .sub_cate h3 {
+        font-size: 18px;
+    }
+}
+
+@media  (max-width : 1200px) {
+    .header .desc h1 {
+        font-size: 76px;
+        line-height: 79px;
+    }
+
+    .header .desc>div:nth-of-type(2) img {
+        transform: translate(15%,500%);
+    }
+}
+
+@media  (max-width : 1100px) {
+    .header .desc h1 {
+        font-size: 74px;
+        line-height: 79px;
+    }
+
+    .header .desc>div:nth-of-type(2) img {
+        transform: translate(13%,485%);
+    }
+}
+
+@media (min-width : 1024px) {
+    #hero .sidebar .list{
+        min-width: 670px;
+    }
+}
+
+@media (max-width : 1023px) {
+    .head h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    #hero .sidebar .nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        z-index: 99;
+    }
+
+    #hero .sidebar .list {
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        padding-top: 106px;
+        z-index: -1;
+    }
+
+    #hero .sidebar .list>div:nth-of-type(1),
+    #hero .sidebar .list>div:nth-of-type(2) {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #hero .sidebar .menu+div {
+        display: none;
+    }
+
+    #hero .sidebar .menu:hover+div {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    #hero .sidebar .menu {
+        height: 50px;
+        width: 50px;
+        float: right;
+        margin: 28px 10%;
+    }
+
+    #hero .sidebar .ti-menu {
+        display: inline-block;
+    }
+
+    #hero .sidebar .list ul {
+        flex-direction: column;
+        float: right;
+    }
+
+    #hero .sidebar .list li {
+        text-align: end;
+        color: aliceblue;
+    }
+
+    #hero .sidebar .list a {
+        color: aliceblue;
+    }
+
+    #hero .sidebar .sign_up {
+        border: none;
+    }
+
+    .header .desc {
+        padding-top: 20px;
+    }
+
+    .header .image {
+        display: none;
+    }
+
+    #services,
+    #book_trip {
+        margin-bottom: 50px;
+    }
+
+    #services .decore_group {
+        display: none;
+    }
+
+    #services .col_4 {
+        flex-wrap: wrap;
+    }
+
+    #services .col_4 .category {
+        width: 50%;
+    }
+
+    #destinations {
+        padding-bottom: 50px;
+    }
+
+    #destinations .row_2 {
+        min-height: 100px;
+    }
+
+    #destinations .col_2 {
+        font-size: 16px;
+        line-height: 20px;
+        min-width: 160px;
+    }
+
+    #destinations .col_2-start {
+        font-size: 13px;
+        line-height: 17px;
+        min-width: 160px;
+    }
+
+    #book_trip .pic {
+        display: none;
+    }
+
+    #logos {
+        justify-content: center;
+        flex-wrap: wrap
+    }
+
+    #testimonials {
+        justify-content: start;
+        height: 600px;
+        flex-direction: column;
+    }
+
+    #testimonials .point {
+        display: none;
+    }
+
+    #testimonials .comments {
+        width: 100%;
+    }
+
+    #testimonials .move {
+        display: none;
+    }
+
+    #subscribe input {
+        width: 300px;
+    }
+
+    #subscribe h3 {
+        font-size: 25px;
+        line-height: 46px;
+    }
+
+    #destinations .col_3,
+    #footer {
+        width: 90%;
+    }
+
+    #footer .sub_footer .company_desc h1 {
+        font-size: 33px;
+        line-height: 55px;
+    }
+
+    #footer .sub_footer .nav_column h3 {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    #footer .sub_footer .nav_column p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    #footer .outbound .text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #footer .sub_footer .icons {
+        width: 175px;
+    }
+
+    #footer .outbound .app_1 {
+        display: flex;
+    }
+
+    #footer .outbound .app_1  div{
+        background-color: black;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0 10px ;
+    }
+    
+    #footer .outbound .app {
+        display: none;
+    }
+}
+
+@media (max-width : 800px) {
+    #logos {
+        width: 100%;
+    }
+}
+
+@media (max-width : 739px) {
+    .head h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .head p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #subscribe .right_bottom {
+        display: none;
+    }
+
+    #hero .sidebar {
+        width: 90%;
+    }
+
+    #hero .sidebar .menu {
+        display: flex;
+    }
+
+    .header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .header .desc {
+        width: 100%;
+    }
+
+    .header .desc>div:nth-of-type(2) img {
+        /* width: 54vw; */
+        top: 0;
+        left: 0;
+        transform: translate(57%,485%);
+    }
+
+    .header .desc>div:nth-of-type(3) {
+        width: 100%;
+    }
+
+    .header .desc>div:nth-of-type(4) {
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+    }
+
+    #subscribe {
+        border-radius: 20px;
+    }
+
+    #subscribe h3 {
+        padding: 50px 0;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    #subscribe .btn {
+        flex-direction: column;
+    }
+
+    #subscribe .input {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    #subscribe input {
+        width: 200px;
+    }
+
+    #subscribe .btn button {
+        margin: 0 auto;
+    }
+
+    .decore_right {
+        width: 75%;
+    }
+
+    #services .col_4 {
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #services .col_4 .category {
+        min-width: 314px;
+    }
+
+    #destinations .col_3 {
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    #destinations .col_3 .destination {
+        min-width: 200px;
+        margin-bottom: 30px;
+    }
+
+    #book_trip,
+    #testimonials {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #book_trip .content,
+    #book_trip .value,
+    #testimonials .head h1 {
+        width: 100%;
+        min-width: 0;
+    }
+
+    #testimonials {
+        height: 700px;
+    }
+
+    #testimonials .head {
+        width: 100%;
+    }
+
+    #testimonials .cm_2 {
+        display: none;
+    }
+
+    #subscribe .left_bottom,
+    #subscribe .top_right {
+        display: none;
+    }
+
+    #footer .sub_footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #footer .sub_footer .company_desc,
+    #footer .outbound {
+        width: 50%;
+        min-width: 175px;
+    }
+
+    #footer .sub_footer .nav_column {
+        order: 1;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+
+@media  (max-width : 650px) {
+    .header .desc h1 {
+        font-size: 69px;
+        line-height: 74px;
+    }
+
+    .header .desc>div:nth-of-type(2) img {
+        width: 355px;
+        transform: translate(60%,500%);
+    }
+}
+
+@media  (max-width : 600px) {
+    .header .desc h1 {
+        font-size: 64px;
+        line-height: 69px;
+    }
+
+    .header .desc>div:nth-of-type(2) img {
+        width: 325px;
+        transform: translate(60%,530%);
+    }
+}
+
+@media  (max-width : 550px) {
+    .header .desc h1 {
+        font-size: 59px;
+        line-height: 64px;
+    }
+
+    .header .desc>div:nth-of-type(2) img {
+        width: 300px;
+        transform: translate(60%,550%);
+    }
+}
+
+@media  (max-width : 500px) {
+    .header .desc h1 {
+        font-size: 53px;
+        line-height: 58px;
+    }
+
+    .header .desc>div:nth-of-type(2) img {
+        width: 275px;
+        transform: translate(58%,580%);
+    }
+}
+
+@media  (max-width : 450px) {
+    .header .desc h1 {
+        font-size: 48px;
+        line-height: 53px;
+    }
+
+    .header .desc>div:nth-of-type(2) img {
+        width: 250px;
+        transform: translate(58%,620%);
+    }
+}
+
+@media  (max-width : 400px) {
+    .header .desc h1 {
+        font-size: 43px;
+        line-height: 48px;
+    }
+
+    .header .desc>div:nth-of-type(2) img {
+        width: 225px;
+        transform: translate(58%,660%);
+    }
+}
+
+@media  (max-width : 350px) {
+    .header .desc h1 {
+        font-size: 38px;
+        line-height: 43px;
+    }
+
+    .header .desc>div:nth-of-type(2) img {
+        width: 185px;
+        transform: translate(62%,760%);
+    }
+}
+
+@media (min-width: 651px) and (max-width : 739px) {
+    .header .desc>div:nth-of-type(2) {
+        width: 600px;
+    }
+}
